@@ -1,2 +1,2 @@
 # mscrmiislogging
-Web front end for reading iis and MSCRM logs
+This project is to create a Web front end for reading iis logs and MSCRM trace files with out having access to the raw log files.  The logs should be imported via a task or continuously (with a maintenance script) and then have the ability to sort and filer the logs by project, error message, event it, mscrm org name, etc to track down the error or follow a bad process.  For mscrm trace logs there should be a combo box choice to switch to a different table and then have the same choices to track down the issue
